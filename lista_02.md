@@ -276,6 +276,7 @@ Classe FormaGeometrica:
 ```
 Resposta: 
 
+```
 Classe Retangulo herda FormaGeometrica: 
     Atributos: 
         - Altura
@@ -299,13 +300,14 @@ Classe Circulo herda FormaGeometrica
     Método CalcularArea()
         Area = Pi * raio^2
         imprimir area calculada
+```
 ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
 
 
 Resposta: 
-
+```
 velocidadeInicial = 10
 Aceleração = 2
 velocidadeMax = 80
@@ -332,6 +334,7 @@ Se (Velocidade > velocidadeMax):
 Se (distanciaPercorrida >= distanciaMax):
     Simulação = false
     Imprimir: 'Fim da simulação'
+```
 ____
 
 **10)** Uma matriz é uma coleção bidimensional de elementos, organizados em linhas e colunas. A seguir, é fornecida a implementação da função SomaDeMatrizes(matrizA, matrizB), que calcula a soma de duas matrizes. Sua tarefa é implementar uma função semelhante, porém que realize a multiplicação de duas matrizes.
@@ -362,7 +365,7 @@ Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
 ```
 Resposta: 
-
+```
 Função MultiplicacaoDeMatrizes(matrizA, matrizB):
     linhasA <- tamanho(matrizA)
     colunasA <- tamanho(matrizA[0])
@@ -384,3 +387,4 @@ Função MultiplicacaoDeMatrizes(matrizA, matrizB):
             matrizResultado[i][j] <- soma
 
     Retornar matrizResultado
+```
